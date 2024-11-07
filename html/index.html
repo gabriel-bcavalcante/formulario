@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- importação da fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <title> Novo Usuário </title>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        
+        <!-- cabeçalho -->
+        <section class="header">
+            <h2> Nova Conta </h2>
+        </section>
+
+        <!-- formulario -->
+        <form id="form" class="form">
+
+            <!-- nome do usuário -->
+            <div class="form-content">
+                <label for="username"> Nome do Usuário </label>
+                <input type="text" id="username" placeholder="Digite o nome do usuário...">
+                <a>Aqui vai a mensagem de erro...</a> <!-- exemplo de mensagem -->
+            </div>
+
+            <!-- email do usuário -->
+            <div class="form-content">
+                <label for="email"> Email </label>
+                <input type="email" id="email" placeholder="Digite o seu email...">
+                <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <!-- senha -->
+            <div class="form-content">
+                <label for="password"> Senha </label>
+                <input type="password" id="password" placeholder="Digite sua senha...">
+                <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <!-- confirmar senha -->
+            <div class="form-content">
+                <label for="password-confirmation"> Confirmação de senha </label>
+                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente...">
+                <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <!-- botao de cadastro -->
+            <button type="submit"> Cadastrar</button>
+
+        </form>
+
+    </div>
+
+<script src="../js/index.js"></script>
+
+</body>
+</html>
